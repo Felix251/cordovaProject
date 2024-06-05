@@ -1,0 +1,74 @@
+/* Style pour le header */
+[data-role="header"] {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Style pour le titre */
+[data-role="header"] h1 {
+  margin: 0;
+}
+
+/* Style pour le main content */
+.ui-content {
+  padding: 20px;
+}
+
+/* Style pour les labels */
+label {
+  font-weight: bold;
+  color: #555;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style pour les inputs */
+input[type="text"],
+input[type="tel"] {
+  width: calc(100% - 10px);
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+/* Style pour le bouton Ajouter */
+[data-role="button"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+[data-role="button"]:hover {
+  background-color: #0056b3;
+}
+
+/* Style pour les liens */
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style pour le footer */
+[data-role="footer"] {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
